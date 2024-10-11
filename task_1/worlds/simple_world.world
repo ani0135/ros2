@@ -1,0 +1,24 @@
+<world name="simple_realistic_world">
+    <include>
+        <uri>model://sun</uri>
+    </include>
+    
+    <include>
+        <uri>model://ground_plane</uri>
+    </include>
+
+    <model name="tree1">
+        <uri>file:~/ros2_ws/src/task_1/models/tree.urdf</uri>
+        <pose>2 2 0 0 0 0</pose>
+    </model>
+
+    <model name="tree2">
+        <uri>file:~/ros2_ws/src/task_1/models/tree.urdf</uri>
+        <pose>-2 -2 0 0 0 0</pose>
+    </model>
+
+    <model name="simple_robot">
+        <uri>file:~/ros2_ws/src/task_1/urdf/custom_robot.urdf</uri>
+        <pose>0 0 0.1 0 0 0</pose>
+    </model>
+</world>
